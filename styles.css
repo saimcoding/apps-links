@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    width: 250px;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card i {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.read-more {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    color: #000;
+}
+.twitter {
+    border-color: #000000;
+
+}
+.twitter:hover{
+    background-color: rgb(97, 140, 204);
+    transition: 1s;
+}
+
+.twitter i {
+    color: #000000;
+}
+
+.twitter .read-more {
+    background-color: #ffffff;
+    color: #000000;
+}
+.twitter .read-more:hover{
+    color: #f4f4f4;
+    background-color: #000;
+    transition: 1s;
+}
+
+.instagram {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+.instagram:hover{
+    background-color: rgb(247, 107, 131);
+    transition: 1s
+}
+.instagram i {
+    color: rgb(0, 0, 0);
+}
+
+.instagram .read-more {
+    background-color: #fff;
+    color: #000000;
+}
+.instagram .read-more:hover{
+    background-color: #000;
+    color: #fff;
+    transition: 1s;
+}
+
+.youtube {
+    border-color: #000000;
+}
+.youtube:hover{
+    background-color: rgb(233, 71, 71);
+    transition: 1s;
+}
+
+
+.youtube i {
+    color: #000000;
+}
+
+.youtube .read-more {
+    background-color: #ffffff;
+    color: #000000;
+}
+.youtube .read-more:hover{
+    background-color: #000;
+    color: #fff;
+    transition: 1s;
+}
